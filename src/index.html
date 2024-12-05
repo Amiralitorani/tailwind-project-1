@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- class="dark" -->
+<html c lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tamas ba ma</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      * {
+        font-family: Vazirmatn, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="dark:bg-black dark:text-white" dir="rtl">
+    <header class="container-2xl">
+      <div class="grid grid-cols-1">
+        <nav
+          class="flex items-center justify-between p-3 dark:bg-indigo-600 dark:text-white rounded-sm"
+          style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px"
+        >
+          <img src="" alt="بنیاد وکلا" />
+
+          <a class="text-white" href="#saerch" onclick="toggleSearch()"
+            ><i class="fa fa-search" aria-hidden="true"></i
+          ></a>
+
+          <input
+            class="d-none block w-100 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6 active::border-b-blue-700"
+            id="saerch"
+            type="text"
+            placeholder="search"
+          />
+          <span
+            ><bdo dir="ltr">(021)42818</bdo
+            ><i class="fa fa-phone" aria-hidden="true"></i
+          ></span>
+          <a href="index2.html">
+            <button class="bg-blue-500 rounded-md p-3 text-white ms-0">
+              ثبت نام / ورود
+            </button></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main class="mb-5">
+      <div class="container-xl">
+        <div class="mx-auto gap-4 grid grid-cols-1 lg:grid-cols-2 p-14">
+          <div class="dark:bg-slate-800 grid border px-10 shadow-md rounded-md">
+            <h2 class="font-bold m-4 pb-2 text-4xl">تماس با ما</h2>
+            <p
+              class="bg-yellow-100 pb-2 text-yellow-600 p-2 mb-3 border-orange-900"
+            >
+              اگر نیاز به مشاوره حقوقی دارید به صفحه مربوطه مراجعه کنید. به
+              سوالات حقوقی شما در فرم تماس با ما ترتیب اثر داده نخواهد شد.
+              <span class="text-cyan-500 hover:text-cyan-900 cursor-pointer"
+                >مشاوره حقوقی آنلاین رایگان</span
+              >
+            </p>
+            <input
+              class="block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6"
+              type="text"
+              placeholder="نام "
+            />
+            <input
+              class="block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6"
+              type="text"
+              placeholder="تلفن همراه"
+            />
+
+            <input
+              class="block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6"
+              type="email"
+              placeholder="ادرس ایمیل"
+            />
+            <label
+              class="dark:text-white font-normal leading-6 text-gray-600"
+              for=""
+              >واحد ها</label
+            >
+            <select
+              class="dark:text-black block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6"
+              name=""
+              id=""
+            >
+              <option value="1" active>واحد مورد نظر</option>
+              <option value="2">شکایات</option>
+              <option value="3">مالی</option>
+              <option value="4">پشتیبانی</option>
+            </select>
+            <label
+              class="dark:text-white font-normal leading-6 text-gray-600"
+              for=""
+              >پیغام</label
+            >
+            <textarea
+              class="block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6 active::border-b-blue-700"
+              name=""
+              id=""
+              placeholder="لطفا پیغام خود را بگذارید"
+            ></textarea>
+            <button
+              class="bg-cyan-600 hover:bg-cyan-700 text-white font-bold p-2 mb-3 rounded-sm"
+            >
+              ارسال
+              <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+            </button>
+          </div>
+
+          <div class="dark:bg-slate-800 shadow-md rounded-md p-5">
+            <div class="pb-3 me-4 mb-6">
+              <br />
+              <strong class="block my-3 ms-3">آدرس</strong>
+              <span class="block ms-3"
+                >تهران، خیابان ولیعصر، بالاتر از فاطمی، کوچه نوروزی، پلاک ۴۷،
+                واحد ۱۰</span
+              >
+            </div>
+            <hr />
+            <div class="py-3 me-4 mb-6">
+              <strong class="block mb-2 ms-3">شماره تماس</strong>
+              <span class="block ms-3"><bdo dir="ltr">(021)42818</bdo></span>
+            </div>
+            <hr />
+            <div class="py-3 me-4 mb-6">
+              <strong class="block mb-2 ms-3">آدرس ایمیل</strong>
+              <span class="block ms-3"> info@bonyadvokala.com</span>
+            </div>
+            <hr />
+
+            <div class="flex py-2 me-3 my-6 ms-3 text-left">
+              <strong>شبکه‌های اجتماعی </strong>
+              <div class="flex-1 mx-auto">
+                <a
+                  class="text-gray-700 dark:text-white mx-2 text-3xl"
+                  href="https://twitter.com/bonyadvokala"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+                <a
+                  class="text-gray-700 dark:text-white mx-2 text-3xl"
+                  href="https://www.instagram.com/bonyadvokala"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a
+                  class="text-gray-700 dark:text-white mx-2 text-3xl"
+                  href="https://www.facebook.com/bonyadvokala"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a
+                  class="text-gray-700 dark:text-white mx-2 text-3xl"
+                  href="https://t.me/bonyadvokala"
+                  ><i class="fa fa-telegram" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+            <p class="text-center mb-4">
+              کلیه حقوق مادی و معنوی بنیاد وکلا متعلق به گروه نوآوران نیک داده
+              پرداز است.
+            </p>
+            <p
+              class="text-center text-cyan-500 hover:text-cyan-300 cursor-pointer"
+            >
+              قوانین و مقررات استفاده
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-xl">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-4 bg-gray-700 text-white rounded-md p-10"
+      >
+        <div class="p-3">
+          <h5 class="m-2 font-bold">برای وکلا</h5>
+          <ul class="p-2 mb-0">
+            <li class="cursor-pointer m-2 mb-3">پروفایل وکیل</li>
+            <li class="cursor-pointerm-2 mb-3">پروفایل وکیل</li>
+            <li class="cursor-pointer m-2 mb-3">پروفایل وکیل</li>
+            <li class="cursor-pointer m-2 mb-3 font-bold">خدمات</li>
+          </ul>
+        </div>
+
+        <div class="p-3">
+          <h5 class="m-2 font-bold">برای وکلا</h5>
+          <ul class="p-2 mb-0">
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+            <li class="cursor-pointer m-2 mb-3">مشاوره حقوقی آنلاین</li>
+
+            <li class="cursor-pointer m-2 mb-3 font-bold">دسترسی ها</li>
+          </ul>
+        </div>
+        <div class="p-3">
+          <h5 class="m-2 font-bold">برای وکلا</h5>
+          <ul class="p-2 mb-0">
+            <li class="cursor-pointer m-2 mb-3">مجله بنیاد وکلا</li>
+            <li class="cursor-pointer m-2 mb-3">مجله بنیاد وکلا</li>
+            <li class="cursor-pointer m-2 mb-3">مجله بنیاد وکلا</li>
+            <li class="cursor-pointer m-2 mb-3">مجله بنیاد وکلا</li>
+            <li class="cursor-pointer m-2 mb-3">مجله بنیاد وکلا</li>
+          </ul>
+        </div>
+        <div>
+          <div
+            class="w-[250px] h-20 bg-green-500 items-center mx-auto mb-8 text-white rounded-full border-2 p-2 cursor-pointer flex"
+          >
+            <img
+              src="img/support-placeholder.jpg"
+              alt=""
+              class="w-[75px] aspect-square rounded-full object-cover"
+            />
+            <div class="w-[calc(100%-95px)] mr-[20px]">
+              <span class="block font-bold">راهنمای دریافت خدمات</span>
+              <span class="font-bold"><bdo dir="ltr">(021)42818</bdo></span>
+            </div>
+          </div>
+          <div class="mt-7 mb-14 text-center mx-auto items-center">
+            <div class="mb-8 text-white">
+              <button class="hover:text-cyan-500">
+                دانلود اپلیکیشن بنیاد وکلا
+              </button>
+            </div>
+            <a
+              href="https://cafebazaar.ir/app/com.bonyadvokala.www.twa"
+              target="_blank"
+              rel="nofollow"
+            >
+              <img
+                src="https://www.bonyadvokala.com/img/cafebazar.svg"
+                alt="دانلود اپلیکیشن بنیاد وکلا از کافه بازار"
+                style="width: 140px"
+              />
+            </a>
+          </div>
+          <div class="text-center mx-auto items-center">
+            <a
+              class="text-white mx-2 text-2xl"
+              href="https://twitter.com/bonyadvokala"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a
+              class="text-white mx-2 text-2xl"
+              href="https://www.instagram.com/bonyadvokala"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+
+            <a
+              class="text-white mx-2 text-2xl"
+              href="https://www.facebook.com/bonyadvokala"
+              ><i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+
+            <a class="text-white mx-2 text-2xl" href="https://t.me/bonyadvokala"
+              ><i class="fa fa-telegram" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container-xl">
+        <div class="grid grid-cols-1 items-center mx-auto text-center">
+          <img src="" alt="" />
+          <p class="my-10">تمام حقوق برای بنیاد وکلا محفوظ است.</p>
+          <span class="my-10 font-thin">محصولی از نیک داده پرداز</span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function toggleSearch() {
+        var searchInput = document.getElementById("saerch");
+        if (searchInput.classList.contains("d-none")) {
+          searchInput.classList.remove("d-none");
+        } else {
+          searchInput.classList.add("d-none");
+        }
+      }
+    </script>
+  </body>
+</html>

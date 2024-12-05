@@ -1,0 +1,60 @@
+<!DOCTYPE html>\
+<!-- class="dark" -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      @media (max-width: 1023px) {
+        .hide-on-small {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body dir="rtl" class="dark:bg-black">
+    <div class="container-2xl items-center justify-center mx-auto mt-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div
+          class="dark:bg-slate-800 dark:text-white border p-6 rounded-md shadow-lg mb-20"
+        >
+          <div class="p-4 mt-20 mb-14">
+            <h3 class="mb-3 font-bold m-4 pb-2 text-xl">ثبت‌نام یا ورود</h3>
+            <span class="border-b-2 border-b-blue-500 p-3"
+              >در کمتر از یک دقیقه به ما بپیوندید</span
+            >
+          </div>
+          <div class="p-3">
+            <label
+              class="dark:text-white font-normal leading-6 text-gray-600"
+              for=""
+              >تلفن همراه</label
+            >
+            <input
+              class="block mt-4 w-full p-2 border border-gray-400 rounded-md font-normal leading-6"
+              type="tel"
+              placeholder="مثال:09121234567"
+            />
+
+            <br />
+            <button
+              class="bg-cyan-500 hover:bg-cyan-700 text-white w-full p-2 rounded-lg"
+            >
+              ادامه
+            </button>
+            <p class="text-sm text-center my-4">
+              با زدن دکمه ادامه فرآیند
+              <span class="text-cyan-400 cursor-pointer">شرایط و قوانین</span>
+              بنیاد وکلا را پذیرفته‌ام.
+            </p>
+          </div>
+        </div>
+        <div class="dark:bg-white hide-on-small lg:grid-cols-1">
+          <img src="img/join-step-1.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
