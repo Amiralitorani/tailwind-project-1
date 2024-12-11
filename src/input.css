@@ -1,3 +1,242 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply dark:bg-black dark:text-white;
+}
+/* header start*/
+.header__container {
+  width: 100%;
+}
+.header__row {
+  @apply grid grid-cols-1;
+}
+.header__nav {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  @apply flex items-center justify-between p-3 dark:bg-indigo-600 dark:text-white rounded-sm;
+}
+.header__nav_search {
+  @apply block w-48 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.header__nav_search-i {
+  @apply text-white;
+}
+.header__nav_sign {
+  @apply bg-blue-500 rounded-md p-3 text-white ms-0;
+}
+/* header end */
+/* main start */
+main {
+  @apply mb-5;
+}
+.main__container {
+  width: 100%;
+  /* @apply container; */
+}
+.main__row {
+  @apply mx-auto gap-4 grid grid-cols-1 lg:grid-cols-2 p-14;
+}
+.main__contactus-l {
+  @apply dark:bg-slate-800 grid border px-10 shadow-md rounded-md;
+}
+.main__contactus_title {
+  @apply font-bold m-4 pb-2 text-4xl;
+}
+.main__contactus_alert {
+  @apply bg-yellow-100 pb-2 text-yellow-600 p-2 mb-3 border-orange-900;
+}
+.main__contactus_alert-link {
+  @apply text-cyan-500 hover:text-cyan-900 cursor-pointer;
+}
+.main__contactus_user {
+  @apply block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.main__contactus_number {
+  @apply block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.main__contactus_email {
+  @apply block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.main__contactus_vahed-l {
+  @apply dark:text-white font-normal leading-6 text-gray-600;
+}
+.main__contactus_vahed-s {
+  @apply dark:text-black block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.main__contactus_massage-l {
+  @apply dark:text-white font-normal leading-6 text-gray-600;
+}
+.main__contactus_massage-txtarea {
+  @apply block w-full my-3 p-2 border border-gray-400 rounded-md mb-3 font-normal leading-6;
+}
+.main__contactus_send-btn {
+  @apply bg-cyan-600 hover:bg-cyan-700 text-white font-bold p-2 mb-3 rounded-sm;
+}
+.main__infobox {
+  @apply dark:bg-slate-800 shadow-md rounded-md p-5;
+}
+.main__infobox_address {
+  @apply pb-3 me-4 mb-6;
+}
+.main__infobox_address-title {
+  @apply block my-3 ms-3;
+}
+.main__infobox_address-txt {
+  @apply block ms-3;
+}
+.main__infobox_phone {
+  @apply py-3 me-4 mb-6;
+}
+.main__infobox_phone-title {
+  @apply block mb-2 ms-3;
+}
+.main__infobox_phone-txt {
+  @apply block ms-3;
+}
+.main__infobox_email {
+  @apply py-3 me-4 mb-6;
+}
+.main__infobox_email-title {
+  @apply block mb-2 ms-3;
+}
+.main__infobox_email-txt {
+  @apply block ms-3;
+}
+.main__infobox_social {
+  @apply flex py-2 me-3 my-6 ms-3 text-left;
+}
+.main__infobox_social-item {
+  @apply flex-1 mx-auto;
+}
+.social__item-twitter,
+.social__item-instagram,
+.social__item-facebook,
+.social__item-telegram {
+  @apply text-gray-700 dark:text-white mx-2 text-3xl;
+}
+.main__infobox_point {
+  @apply text-center mb-4;
+}
+.main__infobox_point_link {
+  @apply text-center text-cyan-500 hover:text-cyan-300 cursor-pointer;
+}
+/* main end */
+/* footer start  */
+footer {
+  width: 100%;
+}
+.footer__row {
+  @apply grid grid-cols-1 lg:grid-cols-4 bg-gray-700 text-white rounded-md p-10;
+}
+.row__menu {
+  @apply p-3;
+}
+.row__menu_title {
+  @apply m-2 font-bold;
+}
+.row__menu_items {
+  @apply p-2 mb-0;
+}
+.row__menu_item {
+  @apply cursor-pointer m-2 mb-3;
+}
+.row__menu_item-b {
+  @apply cursor-pointer m-2 mb-3 font-bold;
+}
+.footer__support {
+  @apply w-[250px] h-20 bg-green-500 items-center mx-auto mb-8 text-white rounded-full border-2 p-2 cursor-pointer flex;
+}
+.footer__support_img {
+  @apply w-[75px] aspect-square rounded-full object-cover;
+}
+.footer__support_txt {
+  @apply w-[calc(100%-95px)] mr-[20px];
+}
+.footer__support_txt-title {
+  @apply block;
+}
+.footer__support_txt-text {
+  @apply font-bold;
+}
+.footer__install_item {
+  @apply mt-7 mb-14 text-center mx-auto items-center;
+}
+.footer__install_box {
+  @apply mb-8 text-white;
+}
+.footer__install_btn {
+  @apply hover:text-cyan-500;
+}
+.cafebazar {
+  @apply flex justify-center;
+}
+.cafebazar img {
+  width: 140px;
+}
+.footer__social-items {
+  @apply text-center mx-auto items-center;
+}
+.footer__social-item {
+  @apply text-white mx-2 text-2xl;
+}
+/* footer end */
+/* under-site start */
+.bottom__container {
+  width: 100%;
+}
+.bottom__row {
+  @apply grid grid-cols-1 items-center mx-auto text-center;
+}
+.bottom__img {
+  @apply my-10;
+}
+.bottom__txt {
+  @apply my-10 font-thin;
+}
+/* under-site end */
+.main {
+  width: 100%;
+  @apply items-center justify-center mx-auto mt-20;
+}
+.main__menu {
+  @apply grid grid-cols-1 lg:grid-cols-2;
+}
+.main__menu_signbox {
+  @apply dark:bg-slate-800 dark:text-white border p-6 rounded-md shadow-lg mb-20;
+}
+.menu__signbox {
+  @apply p-4 mt-20 mb-14;
+}
+.menu__signbox_title {
+  @apply mb-3 font-bold m-4 pb-2 text-xl;
+}
+.menu__signbox_text {
+  @apply border-b-2 border-b-blue-500 p-3;
+}
+.menu__signbox_fill {
+  @apply p-3;
+}
+.menu__signbox_fill-lable {
+  @apply dark:text-white font-normal leading-6 text-gray-600;
+}
+.menu__signbox_fill-input {
+  @apply block mt-4 w-full p-2 border border-gray-400 rounded-md font-normal leading-6;
+}
+.menu__signbox_fill-btn {
+  @apply bg-cyan-500 hover:bg-cyan-700 text-white w-full p-2 rounded-lg;
+}
+.menu__signbox_fill-desc {
+  @apply text-sm text-center my-4;
+}
+.signbox__fill_desc-h {
+  @apply text-cyan-400 cursor-pointer;
+}
+.hide-on-small {
+  @apply dark:bg-white lg:grid-cols-1;
+}
+@media (max-width: 1023px) {
+  .hide-on-small {
+    display: none;
+  }
+}
